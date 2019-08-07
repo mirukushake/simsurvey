@@ -1,0 +1,15 @@
+// Google Fonts import
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat|Nunito|Open+Sans&display=swap');
+
+// Set fonts
+
+$family-sans-serif: "Open Sans", "Karla", "Montserrat", "Nunito", "Helvetica", "Arial", sans-serif;
+$body-family: "Nunito", "Arial", sans-serif;
+$title-family: "Open Sans", "Arial", sans-serif;
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
