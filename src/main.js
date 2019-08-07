@@ -10,7 +10,7 @@ import store from './store';
 Vue.use(Buefy);
 Vue.use(scrollto);
 Vue.use(vueScrollActive);
-Vue.use(apexcharts);
+Vue.component('apexchart', apexcharts);
 
 Vue.config.productionTip = false;
 

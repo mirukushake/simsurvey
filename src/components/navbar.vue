@@ -21,6 +21,9 @@
             <b-navbar-item href="#" class="scrollactive-item">
                 Miscellaneous
             </b-navbar-item>
+            <b-navbar-item href="#" class="scrollactive-item">
+                Survey Info
+            </b-navbar-item>
         </template>
     </b-navbar>
     </scrollactive>
@@ -45,8 +48,8 @@
 export default {
   data() {
     return {
-      activeTab: 0
-    }
-  }
+      activeTab: 0,
+    };
+  },
 };
 </script>
