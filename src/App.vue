@@ -4,7 +4,7 @@
     <section class="section" id="general">
       <div class="container">
       <h1 class="title">General and Background Information</h1>
-        <testchart :chart-data="chartData" />
+        <chart1 :chart-data="chartData" />
 </div>
     </section>
     <section class="section" id="household">
@@ -32,22 +32,6 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam.
          Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
       </b-message>
-
-      <b-field>
-        <b-dropdown>
-          <button class="button" slot="trigger">
-            <span>Filters</span>
-            <b-icon icon="arrow_drop_down"></b-icon>
-          </button>
-
-          <b-option value="open_issues">Open Issues and Pull Requests</b-option>
-          <b-option value="your_issues">Your Issues</b-option>
-          <b-option value="pull_requests">Your Pull Requests</b-option>
-          <b-option value="everything">Everything</b-option>
-        </b-dropdown>
-
-        <b-input icon="search" type="search" placeholder="Search..."></b-input>
-      </b-field>
 </div>
     </section>
     <footer class="footer">
@@ -68,17 +52,17 @@
 import surveyData from '@/assets/responses781.json';
 
 import navbar from './components/navbar.vue';
-import testchart from './components/testchart.vue';
+import chart1 from './components/mainplaystyle.vue';
 
 export default {
   components: {
     navbar,
-    testchart,
+    chart1,
   },
-  data () {
+  data() {
     return {
-      chartData: Object.freeze(surveyData)
-    }
-  }
+      chartData: Object.freeze(surveyData),
+    };
+  },
 };
 </script>
