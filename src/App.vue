@@ -65,7 +65,7 @@
 </style>
 
 <script>
-import surveyData from '@/assets/responses741.json';
+import surveyData from '@/assets/responses781.json';
 
 import navbar from './components/navbar.vue';
 import testchart from './components/testchart.vue';

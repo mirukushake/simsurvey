@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <apexchart height="200" type="line" :options="chartOptions" :series="series"/>
+    <apexchart height="300" type="bar" :options="chartOptions" :series="series"/>
 
-    {{ filteredData }}
+    {{ series }}
   </div>
 </template>
 
@@ -24,31 +24,31 @@ export default {
           },
         },
         xaxis: {
-          type: 'datetime',
           categories: [
-            '2019-01-01',
-            '2019-02-01',
-            '2019-03-01',
-            '2019-04-01',
-            '2019-05-01',
-            '2019-06-01',
-            '2019-07-01',
+            'Builder/Decorator',
+            'CAS/Creating Sims',
+            'Legacy/Family gameplay',
+            'Storytelling',
+            'Creating CC/mods',
+            'Other gameplay',
           ],
         },
       },
-      series: [
-        {
-          name: 'WebsiteHits',
-          data: [15, 20, 21, 25, 60, 120, 93],
-        },
-      ],
     };
   },
   computed: {
-    filteredData() {
-      const playstyle = this.chartData.map(a => a['What is your main play style?'])
-      return playstyle
-    }
+    series() {
+      const builderCount = this.chartData.filter((style) => style.playstyle.includes("builder")).length
+      const casCount = this.chartData.filter((style) => style.playstyle.includes("cas")).length
+      const familyCount = this.chartData.filter((style) => style.playstyle.includes("family")).length
+      const storyCount = this.chartData.filter((style) => style.playstyle.includes("story")).length
+      const creatorCount = this.chartData.filter((style) => style.playstyle.includes("creator")).length
+      const otherCount = this.chartData.filter((style) => style.playstyle.includes("other")).length
+      const arrayData = [builderCount, casCount, familyCount, storyCount, creatorCount, otherCount]
+      const seriesObject = { name: "Responses", data: arrayData}
+      const newSeries = [seriesObject]
+      return newSeries
+    },
   }
 };
 </script>
