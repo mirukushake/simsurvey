@@ -6,7 +6,7 @@
             <b-navbar-item href="#general" class="scrollactive-item">
                 General
             </b-navbar-item>
-            <b-navbar-item href="#" class="scrollactive-item">
+            <b-navbar-item href="#dlc" class="scrollactive-item">
                 DLC Preferences
             </b-navbar-item>
             <b-navbar-item href="#household" class="scrollactive-item">

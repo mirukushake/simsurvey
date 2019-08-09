@@ -1,20 +1,16 @@
 <template>
   <div class="container">
-    <h2 class="subtitle">What is your main playstyle?</h2>
-    <apexchart height="300" type="bar" :options="chartOptions" :series="series"/>
-    Family/legacy play was the most popular answer, with CAS second and building third.
-     Storytelling was lower than I thought it would be.
-     There were a variety of comments for "other gameplay," including:
-    <article class="message">
-  <div class="message-body">
-    <ul>
-      <li>＊ Challenges, especially rags to riches</li>
-      <li>＊ Collecting sim graves</li>
-      <li>＊ Getting achievements</li>
-      <li>＊ Destroying everything</li>
-    </ul>
-  </div>
-</article>
+    <h2 class="subtitle">Do you use custom content and mods?</h2>
+    <span class="chartfloatleft"><apexchart height="300" type="donut" :options="ccuseOptions" :series="ccuse"/></span>
+    <span class="chartfloatright"><apexchart height="300" type="donut" :options="moduseOptions" :series="moduse"/></span>
+   About two-thirds of the respondents use custom content and mods, with slightly more using mods.
+    Unfortunately, I did not include a quesion about game platform,
+     so it's not known how many of those who do not use CC or mods are console or PC players.
+     <span class="chartfloatright"><apexchart height="300" type="donut" :options="cctypeOptions" :series="cctype"/></span>
+     <br /></br />
+     It looks like Maxis Match is the most popular CC type, with Maxis Match second. However, there is a
+      <strong>fairly strong bias</strong> to this data, as the poll was also shared on Tumblr mostly thorugh MM blogs.
+      <div class="is-clearfix"></div>
   </div>
 </template>
 
@@ -28,71 +24,55 @@ export default {
   },
   data() {
     return {
-      chartOptions: {
-        theme: {
-          monochrome: {
-            enabled: true,
-            color: '#3273dc',
-          },
-        },
-        plotOptions: {
-          bar: {
-            distributed: true,
-            dataLabels: {
-              position: 'top',
-            },
-          },
-        },
+      ccuseOptions: {
+        labels: ['Yes', 'No'],
         title: {
-          text: `${this.chartData.length} responses`,
-          style: {
-            fontSize: '14px',
-          },
-        },
-        dataLabels: {
-          enabled: true,
-          formatter(val) {
-            return val;
-          },
-          offsetY: -20,
-          style: {
-            fontSize: '12px',
-            colors: ['#304758'],
-          },
-        },
-        tooltip: {
-          enabled: false,
+          text: 'Do you use CC?',
         },
         chart: {
           fontFamily: '"Nunito", sans-serif',
-          toolbar: {
-            show: false,
-          },
         },
-        xaxis: {
-          categories: [
-            'Legacy/Family gameplay',
-            'CAS/Creating Sims',
-            'Builder/Decorator',
-            'Storytelling',
-            'Other gameplay',
-            'Creating CC/mods',
-          ],
+      },
+      moduseOptions: {
+        labels: ['Yes', 'No'],
+        title: {
+          text: 'Do you use mods?',
+        },
+        chart: {
+          fontFamily: '"Nunito", sans-serif',
+        },
+      },
+      cctypeOptions: {
+        labels: ['Alpha', 'Maxis Match', 'Maxis Mix'],
+        title: {
+          text: 'Which style of CC do you prefer?',
+          align: 'right',
+        },
+        chart: {
+          fontFamily: '"Nunito", sans-serif',
         },
       },
     };
   },
   computed: {
-    series() {
-      const builderCount = this.chartData.filter(style => style.playstyle.includes('builder')).length;
-      const casCount = this.chartData.filter(style => style.playstyle.includes('cas')).length;
-      const familyCount = this.chartData.filter(style => style.playstyle.includes('family')).length;
-      const storyCount = this.chartData.filter(style => style.playstyle.includes('story')).length;
-      const creatorCount = this.chartData.filter(style => style.playstyle.includes('creator')).length;
-      const otherCount = this.chartData.filter(style => style.playstyle.includes('other')).length;
-      const arrayData = [builderCount, casCount, familyCount, storyCount, creatorCount, otherCount].sort((a, b) => b - a);
-      const newSeries = [{ name: 'Responses', data: arrayData }];
-      return newSeries;
+    ccuse() {
+      const useYesCount = this.chartData.filter(x => x.usecc === 'Yes').length;
+      const useNoCount = this.chartData.filter(x => x.usecc === 'No').length;
+      const ccuseCount = [useYesCount, useNoCount];
+      return ccuseCount;
+    },
+    moduse() {
+      const modYesCount = this.chartData.filter(x => x.mods === 'Yes').length;
+      const modNoCount = this.chartData.filter(x => x.mods === 'No').length;
+      const moduseCount = [modYesCount, modNoCount];
+      return moduseCount;
+    },
+    cctype() {
+      const alphaCount = this.chartData.filter(x => x.cctype === 'alpha').length;
+      const mmCount = this.chartData.filter(x => x.cctype === 'mm').length;
+      const mixCount = this.chartData.filter(x => x.cctype === 'mix').length;
+      const cctypeCount = [alphaCount, mmCount, mixCount];
+      return cctypeCount;
     },
   },
 };

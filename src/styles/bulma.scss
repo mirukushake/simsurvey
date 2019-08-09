@@ -7,6 +7,18 @@ $family-sans-serif: "Open Sans", "Karla", "Montserrat", "Nunito", "Helvetica", "
 $body-family: "Nunito", "Arial", sans-serif;
 $title-family: "Open Sans", "Arial", sans-serif;
 
+// other styles
+
+.chartfloatright {
+    float: right;
+    width: 50%;
+}
+.chartfloatleft {
+    float: left;
+    width: 50%;
+}
+
+
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
 
