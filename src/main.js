@@ -11,6 +11,12 @@ Vue.use(Buefy);
 Vue.use(scrollto);
 Vue.use(vueScrollActive);
 Vue.component('apexchart', apexcharts);
+window.Apex.chart = {
+  fontFamily: '"Nunito", sans-serif',
+  toolbar: {
+    show: false,
+  }
+};
 
 Vue.config.productionTip = false;
 

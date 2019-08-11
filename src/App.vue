@@ -6,41 +6,23 @@
       <h1 class="title">General and Background Information</h1>
         <!--<chart1 :chart-data="chartData" />-->
         <!--<chart2 :chart-data="chartData" />-->
-        <!--<chart3 :chart-data="chartData" />-->
+        <chart3 :chart-data="chartData" />
         <!--<chart4 :chart-data="chartData" />-->
 </div>
     </section>
         <section class="section" id="dlc">
       <div class="container">
       <h1 class="title">DLC Preferences</h1>
-      <chart5 :chart-data="chartData" />
+      <!-- <chart5 :chart-data="chartData" />-->
+      <chart7 :chart-data="chartData" />
 </div>
     </section>
     <section class="section" id="household">
       <div class="container">
       <h1 class="title">Sims/Household</h1>
-      <b-field>
-        <b-checkbox>Checkbox</b-checkbox>
-      </b-field>
-
-      <b-field>
-        <b-switch>Default</b-switch>
-      </b-field>
-
-      <b-field label="Name">
-        <b-input placeholder="John Silver"></b-input>
-      </b-field>
-
-      <div class="block">
-        <b-icon icon="person"></b-icon>
-        <b-icon icon="home"></b-icon>
-        <b-icon icon="dashboard"></b-icon>
-      </div>
-
-      <b-message title="Danger with icon" type="is-danger" has-icon>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam.
-         Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-      </b-message>
+      <chart8 :chart-data="chartData" />
+      <!-- <chart10 :chart-data="chartData" />-->
+      <chart14 :chart-data="chartData" />
 </div>
     </section>
     <footer class="footer">
@@ -58,14 +40,23 @@
 </style>
 
 <script>
-import surveyData from '@/assets/responses781.json';
+import surveyData from '@/assets/responses.json';
 
 import navbar from './components/navbar.vue';
 import chart1 from './components/mainplaystyle.vue';
 import chart2 from './components/ccmods.vue';
 import chart3 from './components/previousgames.vue';
 import chart4 from './components/havedlc.vue';
-import chart5 from './components/dlcprefs.vue';
+import chart5 from './components/dlcprefsep.vue';
+import chart6 from './components/dlcprefsgp.vue';
+import chart7 from './components/dlcprefssp.vue';
+import chart8 from './components/startcas.vue';
+import chart9 from './components/livemode.vue';
+import chart10 from './components/legacy.vue';
+import chart11 from './components/premades.vue';
+import chart12 from './components/building.vue';
+import chart13 from './components/skillscareers.vue';
+import chart14 from './components/miscstats.vue';
 
 export default {
   components: {
@@ -75,6 +66,15 @@ export default {
     chart3,
     chart4,
     chart5,
+    chart6,
+    chart7,
+    chart8,
+    chart9,
+    chart10,
+    chart11,
+    chart12,
+    chart13,
+    chart14,
   },
   data() {
     return {

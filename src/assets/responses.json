@@ -1,3 +1,4 @@
+
 [
     {
       "playstyle": [
@@ -176,7 +177,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "play",
@@ -254,7 +258,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -308,7 +315,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -390,7 +401,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -477,7 +492,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "premades": "keep",
@@ -811,7 +829,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -888,7 +910,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "premades": "delete some",
@@ -938,7 +964,13 @@
       "freewill": "On",
       "control": "few",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -1012,7 +1044,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "other",
@@ -1182,7 +1217,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -1205,7 +1244,7 @@
       "which_house": "Apartments",
       "enjoy_decor": "Very much",
       "gallery_lots": "Rarely",
-      "hours": "+1000",
+      "hours": "1000",
       "saves": 15,
       "challenges": "Rarely"
     },
@@ -1501,7 +1540,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -1705,7 +1747,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -2082,7 +2129,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "gens": 3,
@@ -2227,7 +2278,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -2272,7 +2327,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -2506,7 +2564,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -2736,7 +2800,13 @@
       "freewill": "On",
       "control": "one",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -2892,7 +2962,7 @@
       "which_house": "Apartments",
       "enjoy_decor": "Very much",
       "gallery_lots": "Ocassionally",
-      "hours": 500,
+      "hours": 0.5,
       "saves": 1,
       "challenges": "Haven't but would like to try"
     },
@@ -2941,7 +3011,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -3339,7 +3413,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -3498,7 +3577,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -3585,7 +3667,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single adult",
+        "couple adult",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -3700,7 +3786,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "multigen",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -3763,7 +3852,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "rotate": "often",
       "premades": "delete some",
       "gallery_sims": "Rarely",
@@ -3822,7 +3915,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -3931,7 +4030,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "premades": "keep",
@@ -4200,7 +4302,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -4246,7 +4352,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -4310,11 +4420,7 @@
       "usecc": "No",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "all",
       "ep_play": "Seasons",
@@ -4488,7 +4594,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -4564,7 +4676,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -4738,7 +4853,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -4939,7 +5058,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -5214,7 +5336,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -5373,7 +5498,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -5457,7 +5585,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -5556,7 +5687,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "leave",
@@ -5702,7 +5837,10 @@
       "freewill": "Other",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -5846,12 +5984,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "allep",
       "ep_play": [
@@ -5929,7 +6062,11 @@
       "freewill": "On",
       "control": "few",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -6064,7 +6201,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -6154,7 +6297,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "move out",
@@ -6253,7 +6400,10 @@
       "freewill": "Other",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -6439,7 +6589,11 @@
       "freewill": "Other",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -6578,7 +6732,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple teen",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -6873,7 +7031,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -6993,7 +7156,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "leave",
@@ -7057,7 +7224,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -7132,7 +7302,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -7213,7 +7387,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -8089,7 +8266,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "leave",
@@ -8165,7 +8345,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -8252,7 +8435,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "couple adult",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -8336,7 +8524,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -8474,7 +8667,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -8866,7 +9063,11 @@
       "freewill": "On",
       "control": "few",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -8964,11 +9165,7 @@
       "usecc": "Yes",
       "cctype": "mix",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "allep",
       "ep_play": [
@@ -9160,7 +9357,13 @@
       "freewill": "On",
       "control": "few",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "leave",
@@ -9294,7 +9497,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family"
+      ],
       "rotate": "one",
       "premades": "delete some",
       "gallery_sims": "Occassionally",
@@ -9603,7 +9809,10 @@
       "freewill": "On",
       "control": "few",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -9673,7 +9882,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "leave",
@@ -9775,7 +9987,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "premades": "keep",
@@ -9940,7 +10156,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -9997,7 +10217,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "premades": "keep",
@@ -10153,7 +10377,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -10435,7 +10664,10 @@
       "create_enjoy": "Very much",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "move out",
@@ -10626,7 +10858,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "premades": "keep",
@@ -10858,7 +11096,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -11121,7 +11362,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+ 
+       "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -11240,7 +11486,13 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -11474,7 +11726,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "move out",
@@ -11874,7 +12130,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "other",
@@ -12215,7 +12475,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "other"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -12548,7 +12812,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "play",
@@ -12734,11 +13001,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "all",
       "ep_play": [
@@ -12766,7 +13029,10 @@
       "freewill": "On",
       "control": "few",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -12847,7 +13113,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -13002,7 +13273,10 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -13059,7 +13333,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -13164,7 +13442,10 @@
       "freewill": "On",
       "control": "one",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "leave",
@@ -13267,7 +13548,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "rotate": "sometimes",
       "premades": "keep",
       "gallery_sims": "Rarely",
@@ -13603,7 +13887,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -13765,7 +14053,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -13912,12 +14204,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "No",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "No",
       "freewill": "Other",
       "money_cheat": "Occassionally",
@@ -14270,7 +14557,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -14632,7 +14922,12 @@
       "freewill": "On",
       "control": "other",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -14714,7 +15009,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -14787,7 +15085,10 @@
       "freewill": "On",
       "control": "few",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -14946,7 +15247,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -15112,7 +15419,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -15340,7 +15652,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -15477,7 +15793,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "premades": "keep",
@@ -15548,7 +15870,12 @@
       "freewill": "Other",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -15640,7 +15967,7 @@
       "which_house": "Standalone homes",
       "enjoy_decor": "Not at all",
       "gallery_lots": "Often",
-      "hours": "+500",
+      "hours": "500",
       "saves": 1,
       "challenges": "Rarely"
     },
@@ -15745,7 +16072,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -15773,11 +16103,7 @@
       "playstyle": "other",
       "usecc": "No",
       "mods": "No",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": [
         "Get to Work",
@@ -15874,7 +16200,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "premades": "delete all",
@@ -16117,7 +16446,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -16292,7 +16627,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -16565,7 +16906,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -16877,7 +17222,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -16944,7 +17292,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -17272,7 +17623,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "move out",
@@ -17536,7 +17893,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -18438,12 +18799,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": [
         "City Living",
@@ -18459,7 +18815,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "rotate": "one",
       "premades": "keep",
       "gallery_sims": "Rarely",
@@ -18701,11 +19062,7 @@
       "mods": "Yes",
       "othergames": "Sims 2",
       "dlc": "Yes",
-      "dlc_completion": [
-        "allep",
-        "allgp",
-        "allsp"
-      ],
+      "dlc_completion": "all",
       "ep_play": "Seasons",
       "ep_bb": "Island Living",
       "ep_cas": "Get to Work",
@@ -18719,7 +19076,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "gens": 5,
@@ -18995,7 +19355,12 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -19057,7 +19422,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "couple teen",
+        "family"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -19164,7 +19533,7 @@
       "which_house": "No preference",
       "enjoy_decor": "Very much",
       "gallery_lots": "Rarely",
-      "hours": "+1500",
+      "hours": "1500",
       "saves": 1,
       "challenges": "Rarely"
     },
@@ -19275,7 +19644,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -19837,7 +20210,10 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -19991,7 +20367,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "other"
+      ],
       "pets": "No preference",
       "rotate": "other",
       "spares": "move out",
@@ -20128,7 +20507,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple teen",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -20292,7 +20677,13 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single adult",
+        "couple adult",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "leave",
@@ -20372,7 +20763,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple teen",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "leave",
@@ -20425,7 +20822,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -20496,7 +20897,11 @@
       "create_enjoy": "Somewhat",
       "control": "other",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -20647,7 +21052,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "leave",
@@ -20705,7 +21114,11 @@
       "freewill": "On",
       "control": "few",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "rotate": "one",
       "premades": "keep",
       "gallery_sims": "Occassionally",
@@ -20896,7 +21309,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "leave",
@@ -20989,7 +21407,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -21151,7 +21573,12 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -21302,7 +21729,13 @@
       "freewill": "On",
       "control": "few",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -21389,12 +21822,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "allep",
       "ep_play": [
@@ -21466,11 +21894,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": [
         "Get Together",
@@ -21603,7 +22027,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -21686,7 +22115,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -21745,7 +22178,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -22040,7 +22478,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -22093,7 +22534,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "premades": "keep",
@@ -22122,11 +22567,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": [
         "allep",
@@ -22179,7 +22620,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -22228,7 +22673,8 @@
         "Spa Day",
         "Vampires"
       ],
-      "gp_bb": "None",
+      "gp_bb":
+ "None",
       "gp_cas": "Vampires",
       "sp_play": [
         "Romantic Garden Stuff[",
@@ -22244,7 +22690,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple adult",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "premades": "play",
@@ -22325,7 +22777,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -22411,7 +22866,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -22572,7 +23031,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "short",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -22770,7 +23233,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "leave",
@@ -22897,7 +23364,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "move out",
@@ -22956,7 +23427,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -23031,7 +23506,12 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -23149,7 +23629,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "delete all",
@@ -23315,7 +23798,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -23482,7 +23968,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -23560,7 +24051,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "short",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -23590,12 +24085,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": [
         "allep",
@@ -23643,7 +24133,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "other",
@@ -24070,7 +24563,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "other",
@@ -24732,7 +25229,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "premades": "delete some",
@@ -24819,7 +25322,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -24889,7 +25397,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "move out",
@@ -25192,7 +25704,13 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -25264,7 +25782,12 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -26137,7 +26660,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "move out",
@@ -26364,7 +26890,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -26500,7 +27029,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "premades": "keep",
@@ -26555,7 +27089,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -26664,7 +27201,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -26752,7 +27295,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "short",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -26943,7 +27491,11 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "premades": "keep",
@@ -26999,7 +27551,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -27312,7 +27870,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "other",
@@ -27400,7 +27962,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -27513,7 +28079,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "other",
@@ -27579,7 +28151,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "short",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -27852,7 +28428,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -27956,7 +28535,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -28248,7 +28830,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "couple adult",
+        "family"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -28365,12 +28952,7 @@
       ],
       "usecc": "No",
       "mods": "No",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "No",
       "money_cheat": "Often",
       "skill_cheat": "Occassionally",
@@ -28981,7 +29563,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -29143,7 +29729,10 @@
       "create_enjoy": "Very much",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -29221,7 +29810,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single adult",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -29304,7 +29897,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "leave",
@@ -29416,7 +30013,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "other",
@@ -29491,7 +30092,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -29653,7 +30257,12 @@
       "freewill": "Other",
       "control": "other",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple teen",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -29737,11 +30346,7 @@
         "Sims 3"
       ],
       "dlc": "Yes",
-      "dlc_completion": [
-        "allep",
-        "allgp",
-        "allsp"
-      ],
+      "dlc_completion": "all",
       "ep_play": "City Living",
       "ep_bb": [
         "City Living",
@@ -29786,7 +30391,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -29857,7 +30466,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen"
+      ],
       "rotate": "sometimes",
       "spares": "play",
       "gens": 12,
@@ -29916,7 +30529,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -29985,7 +30601,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single adult",
+        "couple ya",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -30271,7 +30891,10 @@
       "freewill": "On",
       "control": "other",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "rotate": "one",
       "gens": 3,
       "premades": "other",
@@ -30384,7 +31007,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -30467,7 +31093,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "leave",
@@ -30646,7 +31276,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -30679,11 +31312,7 @@
       "usecc": "No",
       "cctype": "mm",
       "mods": "No",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "allgp",
       "ep_play": [
@@ -30993,7 +31622,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -31144,7 +31776,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -31312,7 +31947,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "family"
+      ],
       "rotate": "often",
       "spares": "play",
       "gens": 3,
@@ -31443,7 +32082,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -31560,7 +32202,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "couple elder",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -31627,7 +32275,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -31879,7 +32531,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "premades": "keep",
@@ -31951,7 +32607,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -32452,7 +33112,10 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "other"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "gens": 0,
@@ -32590,7 +33253,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -32807,7 +33473,13 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple teen",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "leave",
@@ -32896,7 +33568,13 @@
       "freewill": "Other",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple adult",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "delete some",
@@ -32977,7 +33655,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "premades": "keep",
@@ -33173,7 +33855,10 @@
       "freewill": "On",
       "control": "few",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -33282,7 +33967,8 @@
       ],
       "sp_cas": [
         "Kids Room Stuff",
-        "Toddler Stuff"
+        
+"Toddler Stuff"
       ],
       "create_enjoy": "Very much",
       "freewill": "On",
@@ -33474,7 +34160,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -33832,7 +34524,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -34000,7 +34695,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -34082,7 +34782,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -34389,7 +35093,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -34427,7 +35136,12 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -34504,12 +35218,7 @@
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": "I don't have any EPs",
       "ep_bb": "I don't have any EPs",
@@ -34530,7 +35239,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "rotate": "sometimes",
       "premades": "keep",
       "gallery_sims": "Never",
@@ -34611,7 +35324,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -34660,7 +35377,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "premades": "keep",
@@ -34807,7 +35529,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -34967,7 +35695,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -35138,7 +35870,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "delete some",
@@ -35312,7 +36049,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -35521,7 +36262,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -35681,7 +36425,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -35755,7 +36503,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -35924,7 +36676,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "rotate": "one",
       "spares": "move out",
       "gens": 5,
@@ -35992,7 +36747,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "leave",
@@ -36097,7 +36857,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -36213,7 +36976,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -36289,7 +37055,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -36388,12 +37158,7 @@
       "usecc": "Yes",
       "cctype": "mix",
       "mods": "Yes",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": [
         "Cats & Dogs",
@@ -36597,7 +37362,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -36662,7 +37432,10 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -36883,7 +37656,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "other",
       "spares": "play",
@@ -37037,7 +37813,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "other"
+      ],
       "rotate": "other",
       "premades": "delete some",
       "gallery_sims": "Occassionally",
@@ -37295,7 +38074,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -37837,7 +38621,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -37973,7 +38761,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -38053,7 +38845,11 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "other",
@@ -38381,7 +39177,12 @@
       "freewill": "On",
       "control": "few",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "leave",
@@ -38480,7 +39281,10 @@
       "create_enjoy": "Very much",
       "freewill": "On",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single adult",
+        "couple ya"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -38680,7 +39484,12 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "leave",
@@ -39143,7 +39952,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "rotate": "sometimes",
       "premades": "keep",
       "gallery_sims": "Rarely",
@@ -39225,7 +40037,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -39415,7 +40231,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "couple adult",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "premades": "delete some",
@@ -39499,7 +40318,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "move out",
@@ -39586,7 +40410,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -39742,7 +40570,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -39827,7 +40658,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -39942,7 +40776,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "move out",
@@ -40054,7 +40893,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -40324,7 +41168,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "move out",
@@ -40617,7 +41464,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple adult"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "delete some",
@@ -41024,7 +41874,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "roommates",
+        "other"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "other",
@@ -41168,7 +42021,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "move out",
@@ -41254,7 +42110,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -41309,7 +42169,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -41382,7 +42245,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "other",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "premades": "keep",
@@ -41660,7 +42527,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -41725,7 +42596,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -42028,7 +42902,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -42199,7 +43078,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "couple ya",
+        "couple adult",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -42462,7 +43347,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "move out",
@@ -42654,7 +43542,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "keep",
@@ -42949,7 +43841,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -43247,7 +44142,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "move out",
@@ -43309,7 +44208,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "play",
@@ -43447,7 +44350,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -43605,7 +44514,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -44024,7 +44937,12 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "move out",
@@ -44110,7 +45028,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "play",
@@ -44165,7 +45086,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "couple ya",
+        "family"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "premades": "keep",
@@ -44290,7 +45214,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -44374,7 +45302,13 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -44418,7 +45352,8 @@
       "ep_play": [
         "Get to Work",
         "Seasons",
-        "Get Famous"
+       
+ "Get Famous"
       ],
       "ep_bb": [
         "City Living",
@@ -44813,7 +45748,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -44959,7 +45898,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -45028,7 +45970,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "premades": "delete some",
@@ -45116,7 +46061,12 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "couple ya",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -45205,7 +46155,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "gallery_sims": "Rarely",
@@ -45339,7 +46295,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -45423,7 +46383,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -45670,7 +46634,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "play",
@@ -45916,7 +46885,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single teen",
+        "single ya",
+        "multigen"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "move out",
@@ -45995,7 +46968,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "multigen"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "spares": "move out",
@@ -46079,7 +47055,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "play",
@@ -46167,7 +47147,13 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "often",
       "spares": "play",
@@ -46400,7 +47386,11 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "other",
@@ -46473,7 +47463,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -46689,7 +47682,12 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "one",
       "spares": "leave",
@@ -46777,7 +47775,13 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "other",
@@ -46812,12 +47816,7 @@
       "usecc": "No",
       "cctype": "mm",
       "mods": "No",
-      "othergames": [
-        "All",
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "ep_play": "Seasons",
       "ep_bb": [
@@ -46906,7 +47905,11 @@
       "freewill": "Off",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "single adult",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "premades": "delete some",
@@ -47061,7 +48064,10 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -47206,7 +48212,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "move out",
@@ -47346,7 +48356,11 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "premades": "keep",
@@ -48087,7 +49101,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "custom",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "gens": 4,
@@ -48168,7 +49187,12 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "other",
       "spares": "other",
@@ -48428,7 +49452,13 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "sometimes",
       "spares": "play",
@@ -48569,7 +49599,7 @@
       "which_house": "No preference",
       "enjoy_decor": "Very much",
       "gallery_lots": "Never",
-      "hours": "+1000",
+      "hours": "1000",
       "saves": 2,
       "challenges": "Often"
     },
@@ -48609,7 +49639,10 @@
       "freewill": "Other",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "spares": "move out",
@@ -48675,7 +49708,11 @@
       "freewill": "On",
       "control": "rotate",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "often",
       "gens": 4,
@@ -49130,7 +50167,12 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "No preference",
       "rotate": "one",
       "spares": "leave",
@@ -49163,11 +50205,7 @@
       ],
       "usecc": "Yes",
       "mods": "Yes",
-      "othergames": [
-        "Sims 1",
-        "Sims 2",
-        "Sims 3"
-      ],
+      "othergames": "All",
       "dlc": "Yes",
       "dlc_completion": "allep",
       "ep_play": [
@@ -49702,7 +50740,12 @@
       "freewill": "On",
       "control": "yes",
       "aging": "normal",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
       "pets": "Start with pets",
       "rotate": "sometimes",
       "spares": "move out",
@@ -49779,7 +50822,10 @@
       "freewill": "Off",
       "control": "yes",
       "aging": "off",
-      "starter": "other",
+      "starter": [
+        "family",
+        "multigen"
+      ],
       "pets": "Start with pets",
       "rotate": "often",
       "gens": 1,
@@ -50042,7 +51088,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "long",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
       "pets": "Adopt",
       "rotate": "sometimes",
       "spares": "play",
@@ -50117,7 +51166,10 @@
       "freewill": "On",
       "control": "yes",
       "aging": "manual",
-      "starter": "other",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
       "pets": "Start with pets",
       "rotate": "one",
       "spares": "play",
@@ -50227,5 +51279,2504 @@
       "gallery_lots": "Ocassionally",
       "saves": 10,
       "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Vampires",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Vampires",
+        "Parenthood"
+      ],
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "few",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Often",
+      "career_cheat": "Often",
+      "careers": [
+        "Astronaut",
+        "Culinary",
+        "Painter",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 2923,
+      "saves": 1,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Vampires",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Vampires",
+        "Parenthood"
+      ],
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "few",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Often",
+      "career_cheat": "Often",
+      "careers": [
+        "Astronaut",
+        "Culinary",
+        "Painter",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 2923,
+      "saves": 1,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 2",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "City Living",
+        "Get Famous"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Vampires"
+      ],
+      "gp_bb": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Spooky Stuff",
+        "Kids Room Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Spooky Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Spooky Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "off",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
+      "pets": "Start with pets",
+      "rotate": "sometimes",
+      "spares": "play",
+      "premades": "delete all",
+      "gallery_sims": "Often",
+      "gallery_townie": "Often",
+      "money_cheat": "Always",
+      "skill_cheat": "Always",
+      "career_cheat": "Always",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Writer",
+        "Self-employed",
+        "Retail/Restaurant",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very much",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Often",
+      "hours": 6000,
+      "saves": 1,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "story",
+        "other"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "Get to Work",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Dine Out"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "sp_play": [
+        "Cool Kitchen Stuff",
+        "Movie Hangout Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff"
+      ],
+      "sp_cas": [
+        "Luxury Party Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "family",
+      "pets": "Start with pets",
+      "rotate": "often",
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Critic (CL)",
+        "Culinary",
+        "Entertainer",
+        "Writer",
+        "Retail/Restaurant"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "Apartments",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Often",
+      "hours": 30,
+      "saves": 3,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": "Seasons",
+      "ep_bb": "Island Living",
+      "ep_cas": [
+        "Seasons",
+        "Get Famous"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": "Romantic Garden Stuff[",
+      "sp_cas": "Laundry Day Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "manual",
+      "starter": "single ya",
+      "pets": "Start with pets",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "delete all",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Often",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Rarely",
+      "careers": "don't know",
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Ocassionally",
+      "hours": 4224,
+      "saves": 2,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Cats & Dogs"
+      ],
+      "ep_cas": [
+        "Get to Work",
+        "Get Together",
+        "City Living"
+      ],
+      "gp_play": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "sp_play": [
+        "Backyard Stuff",
+        "Fitness Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Backyard Stuff",
+        "Fitness Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": "Fitness Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": "couple ya",
+      "pets": "Start with pets",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "other",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Never",
+      "careers": [
+        "Gardener (Seasons)",
+        "Tech Guru",
+        "Writer",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 10000,
+      "saves": 3,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": "story",
+      "usecc": "No",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": "None",
+      "ep_bb": "None",
+      "ep_cas": "None",
+      "gp_play": [
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": "None",
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "family"
+      ],
+      "pets": "Adopt",
+      "rotate": "one",
+      "spares": "leave",
+      "gens": 4,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Culinary",
+        "Self-employed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Not at all",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Never",
+      "saves": 1,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "Get to Work",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "ep_cas": "Island Living",
+      "gp_play": [
+        "Spa Day",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Strangerville"
+      ],
+      "gp_cas": "None",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "Start with pets",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Always",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Culinary",
+        "Self-employed"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Very little",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "saves": 3,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Spa Day",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Bowling Night Stuff"
+      ],
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "play",
+      "gens": 4,
+      "premades": "keep",
+      "gallery_sims": "Often",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Social Media (CL)",
+        "Writer",
+        "Freelancer",
+        "Self-employed"
+      ],
+      "build_home": "Very little",
+      "build_community": "Very little",
+      "which_house": "No preference",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Always",
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "ep_play": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons"
+      ],
+      "gp_play": "Parenthood",
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": "Vintage Glamour Stuff",
+      "sp_bb": "Vintage Glamour Stuff",
+      "sp_cas": [
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "roommates",
+      "rotate": "sometimes",
+      "spares": "play",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Freelancer",
+        "Self-employed",
+        "Retail/Restaurant"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 167,
+      "saves": 2,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": "builder",
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "sp_play": [
+        "Backyard Stuff",
+        "Vintage Glamour Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Romantic Garden Stuff[",
+        "Vintage Glamour Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Perfect Patio Stuff",
+        "Vintage Glamour Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Somewhat",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Always",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Criminal",
+        "Detective (GTW)",
+        "Scientist (GTW)",
+        "Social Media (CL)",
+        "Writer"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 1500,
+      "saves": 2,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": "City Living",
+      "ep_cas": [
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_bb": "Vampires",
+      "gp_cas": "Vampires",
+      "sp_play": "Cool Kitchen Stuff",
+      "sp_bb": "Cool Kitchen Stuff",
+      "sp_cas": "Cool Kitchen Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "off",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "No preference",
+      "rotate": "often",
+      "spares": "play",
+      "gens": 4,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Often",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Culinary",
+        "Writer",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 600,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": "cas",
+      "usecc": "No",
+      "cctype": "mm",
+      "mods": "No",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get Together",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Parenthood",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Backyard Stuff",
+        "Toddler Stuff"
+      ],
+      "sp_bb": [
+        "Luxury Party Stuff",
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff["
+      ],
+      "sp_cas": [
+        "Perfect Patio Stuff",
+        "Movie Hangout Stuff",
+        "Bowling Night Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "Other",
+      "control": "rotate",
+      "aging": "manual",
+      "starter": [
+        "single ya",
+        "couple teen",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "Start with pets",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "keep",
+      "gallery_sims": "Can't",
+      "gallery_townie": "Can't",
+      "money_cheat": "Often",
+      "skill_cheat": "Often",
+      "career_cheat": "Never",
+      "careers": [
+        "Gardener (Seasons)",
+        "Painter",
+        "Freelancer",
+        "Unemployed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Can't",
+      "hours": 42,
+      "saves": 3,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get to Work",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Parenthood"
+      ],
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Somewhat",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "Adopt",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 10,
+      "premades": "delete some",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Doctor (GTW)",
+        "Politician (CL)"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "No preference",
+      "enjoy_decor": "Not at all",
+      "gallery_lots": "Often",
+      "hours": 800,
+      "saves": 1,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Cats & Dogs",
+        "Seasons",
+        "Get Famous"
+      ],
+      "gp_play": [
+        "Spa Day",
+        "Parenthood"
+      ],
+      "gp_bb": "Parenthood",
+      "gp_cas": "Parenthood",
+      "sp_play": [
+        "Kids Room Stuff",
+        "Backyard Stuff",
+        "Toddler Stuff"
+      ],
+      "sp_bb": [
+        "Kids Room Stuff",
+        "Backyard Stuff",
+        "Toddler Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Somewhat",
+      "freewill": "Off",
+      "control": "yes",
+      "aging": "long",
+      "starter": "other",
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "play",
+      "gens": 5,
+      "premades": "keep",
+      "gallery_sims": "Often",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Always",
+      "career_cheat": "Always",
+      "careers": [
+        "Freelancer",
+        "Self-employed",
+        "Custom careers"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Always",
+      "hours": 1877,
+      "saves": 7,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": "family",
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get Together",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Get Famous"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Kids Room Stuff",
+        "Toddler Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Vintage Glamour Stuff",
+        "Toddler Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "couple ya",
+        "family"
+      ],
+      "pets": "Start with pets",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 7,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Often",
+      "money_cheat": "Always",
+      "skill_cheat": "Always",
+      "career_cheat": "Always",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Detective (GTW)",
+        "Doctor (GTW)",
+        "Scientist (GTW)",
+        "Tech Guru"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 811,
+      "saves": 3,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": "None",
+      "ep_cas": "None",
+      "gp_play": "Parenthood",
+      "gp_bb": "Parenthood",
+      "gp_cas": "None",
+      "sp_play": [
+        "Toddler Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Somewhat",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "normal",
+      "starter": "single ya",
+      "pets": "Adopt",
+      "rotate": "often",
+      "gens": 0,
+      "premades": "delete all",
+      "gallery_sims": "Often",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Always",
+      "skill_cheat": "Always",
+      "career_cheat": "Often",
+      "careers": [
+        "Scientist (GTW)",
+        "Freelancer",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 25,
+      "saves": 2,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "City Living",
+        "Cats & Dogs"
+      ],
+      "ep_cas": [
+        "Get to Work",
+        "Seasons",
+        "Get Famous"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": "None",
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "long",
+      "starter": "roommates",
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "other",
+      "gens": 5,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Scientist (GTW)",
+        "Social Media (CL)",
+        "Freelancer",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Rarely",
+      "hours": 3441,
+      "saves": 5,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "story",
+        "other"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": "Island Living",
+      "gp_play": "None",
+      "gp_bb": "Jungle Adventure",
+      "gp_cas": "None",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Somewhat",
+      "freewill": "Other",
+      "control": "rotate",
+      "aging": "long",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
+      "pets": "No preference",
+      "rotate": "one",
+      "premades": "keep",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Self-employed",
+        "Retail/Restaurant"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Ocassionally",
+      "hours": 200,
+      "saves": 5,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Kids Room Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_bb": [
+        "Cool Kitchen Stuff",
+        "Romantic Garden Stuff[",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_cas": [
+        "Kids Room Stuff",
+        "Vintage Glamour Stuff",
+        "Toddler Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "manual",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "play",
+      "gens": 4,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Always",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Politician (CL)",
+        "Scientist (GTW)",
+        "Social Media (CL)",
+        "Self-employed"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 10961,
+      "saves": 3,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "ep_play": [
+        "Get to Work",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": "City Living",
+      "ep_cas": [
+        "Get to Work",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Spa Day",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": "None",
+      "gp_cas": [
+        "Vampires",
+        "Parenthood"
+      ],
+      "sp_play": "Romantic Garden Stuff[",
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_cas": [
+        "Kids Room Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": "roommates",
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 7,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Often",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Athlete",
+        "Entertainer",
+        "Writer"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "No preference",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Ocassionally",
+      "hours": 130,
+      "saves": 2,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Kids Room Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Perfect Patio Stuff",
+        "Cool Kitchen Stuff",
+        "Backyard Stuff"
+      ],
+      "sp_cas": [
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "Other",
+      "control": "yes",
+      "aging": "manual",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Often",
+      "money_cheat": "Always",
+      "skill_cheat": "Always",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Style Influencer",
+        "Tech Guru",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 500,
+      "saves": 5,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": "family",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "No",
+      "freewill": "Other",
+      "money_cheat": "Often",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": "Painter",
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 500,
+      "saves": 2,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "other"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "No",
+      "freewill": "Other",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Criminal",
+        "Painter",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very little",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 50,
+      "saves": 2,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "No",
+      "mods": "No",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "ep_play": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": "Seasons",
+      "ep_cas": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_bb": "None",
+      "gp_cas": "Parenthood",
+      "sp_play": [
+        "Perfect Patio Stuff",
+        "Backyard Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Backyard Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": "Laundry Day Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "delete some",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Often",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Astronaut",
+        "Culinary",
+        "Writer",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Rarely",
+      "hours": 1459,
+      "saves": 3,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": "cas",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Dine Out"
+      ],
+      "gp_cas": "Vampires",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Perfect Patio Stuff",
+        "Romantic Garden Stuff[",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_cas": [
+        "Perfect Patio Stuff",
+        "Romantic Garden Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "manual",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Never",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Gardener (Seasons)",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very little",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 300,
+      "saves": 3,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get to Work",
+        "Get Together",
+        "City Living"
+      ],
+      "ep_cas": [
+        "Get to Work",
+        "Get Together",
+        "Cats & Dogs"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Dine Out",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Jungle Adventure"
+      ],
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Perfect Patio Stuff",
+        "Cool Kitchen Stuff",
+        "Romantic Garden Stuff["
+      ],
+      "sp_cas": [
+        "Cool Kitchen Stuff",
+        "Romantic Garden Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "off",
+      "starter": "single ya",
+      "pets": "Start with pets",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Scientist (GTW)",
+        "Social Media (CL)",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 3369,
+      "saves": 5,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": "family",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get to Work",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "gp_play": [
+        "Dine Out",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood"
+      ],
+      "sp_play": [
+        "Backyard Stuff",
+        "Laundry Day Stuff",
+        "My First Pet Stuff"
+      ],
+      "sp_bb": [
+        "Cool Kitchen Stuff",
+        "Laundry Day Stuff",
+        "My First Pet Stuff"
+      ],
+      "sp_cas": [
+        "Vintage Glamour Stuff",
+        "Toddler Stuff",
+        "My First Pet Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": "Writer",
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Rarely",
+      "saves": 4,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": "cas",
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": "City Living",
+      "ep_bb": "Seasons",
+      "ep_cas": "Island Living",
+      "gp_play": "Parenthood",
+      "gp_bb": "Outdoor Retreat",
+      "gp_cas": "Jungle Adventure",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": "Laundry Day Stuff",
+      "sp_cas": "Laundry Day Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
+      "pets": "Start with pets",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Always",
+      "skill_cheat": "Always",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Doctor (GTW)",
+        "Social Media (CL)",
+        "Unemployed"
+      ],
+      "build_home": "Very little",
+      "build_community": "Not at all",
+      "which_house": "Apartments",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Always",
+      "hours": 343,
+      "saves": 4,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "other",
+        "creator"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Parenthood"
+      ],
+      "gp_bb": "Parenthood",
+      "gp_cas": "Parenthood",
+      "sp_play": "Perfect Patio Stuff",
+      "sp_bb": "Perfect Patio Stuff",
+      "sp_cas": "Perfect Patio Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "normal",
+      "starter": [
+        "single teen",
+        "single ya",
+        "couple teen",
+        "couple ya",
+        "multigen"
+      ],
+      "pets": "Adopt",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 12,
+      "premades": "keep",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Often",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Painter"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Not at all",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very little",
+      "gallery_lots": "Rarely",
+      "hours": 2040,
+      "saves": 7,
+      "challenges": "Always"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": [
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": "I don't have any GPs",
+      "gp_bb": "I don't have any GPs",
+      "gp_cas": "I don't have any GPs",
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "premades": "keep",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Culinary",
+        "Entertainer",
+        "Social Media (CL)",
+        "Self-employed",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 140,
+      "saves": 2,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": "Seasons",
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": "Island Living",
+      "gp_play": "Parenthood",
+      "gp_bb": "Parenthood",
+      "gp_cas": "Parenthood",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Kids Room Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Kids Room Stuff",
+        "Toddler Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single teen",
+        "single ya"
+      ],
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Often",
+      "money_cheat": "Often",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Never",
+      "careers": [
+        "Gardener (Seasons)",
+        "Painter",
+        "Social Media (CL)",
+        "Freelancer",
+        "Self-employed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "No preference",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Often",
+      "hours": 3000,
+      "saves": 4,
+      "challenges": "Always"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 2",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Get Famous"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "Get Famous"
+      ],
+      "gp_play": "Parenthood",
+      "gp_bb": [
+        "Spa Day",
+        "Parenthood"
+      ],
+      "gp_cas": [
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "sp_play": [
+        "Perfect Patio Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Romantic Garden Stuff[",
+        "Fitness Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Bowling Night Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "manual",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "play",
+      "gens": 4,
+      "premades": "keep",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Doctor (GTW)",
+        "Painter",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 4000,
+      "saves": 2,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Kids Room Stuff",
+        "Toddler Stuff"
+      ],
+      "sp_bb": [
+        "Kids Room Stuff",
+        "Fitness Stuff",
+        "Toddler Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Kids Room Stuff",
+        "Toddler Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "multigen"
+      ],
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "play",
+      "gens": 10,
+      "premades": "delete all",
+      "gallery_sims": "Often",
+      "gallery_townie": "Often",
+      "money_cheat": "Always",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Never",
+      "careers": [
+        "Doctor (GTW)",
+        "Gardener (Seasons)",
+        "Painter",
+        "Tech Guru",
+        "Freelancer"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very little",
+      "gallery_lots": "Often",
+      "hours": 1500,
+      "saves": 6,
+      "challenges": "Always"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "No",
+      "freewill": "Other",
+      "money_cheat": "Often",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Culinary",
+        "Entertainer",
+        "Painter",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 398,
+      "saves": 8,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "No",
+      "othergames": "Sims 2",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": "City Living",
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Cats & Dogs"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Parenthood"
+      ],
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": [
+        "Toddler Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": "Vintage Glamour Stuff",
+      "sp_cas": "None",
+      "create_enjoy": "Somewhat",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "gens": 2,
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Often",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Scientist (GTW)",
+        "Freelancer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Never",
+      "saves": 1,
+      "challenges": "Ocassionally"
     }
-]
+  ]

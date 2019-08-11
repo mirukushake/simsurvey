@@ -26,6 +26,9 @@ export default {
         chart: {
           fontFamily: '"Nunito", sans-serif',
         },
+        legend: {
+          position: 'top',
+        },
       },
       barOptions: {
         theme: {

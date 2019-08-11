@@ -32,6 +32,9 @@ export default {
         chart: {
           fontFamily: '"Nunito", sans-serif',
         },
+        legend: {
+          position: 'top',
+        },
       },
       moduseOptions: {
         labels: ['Yes', 'No'],
@@ -40,6 +43,9 @@ export default {
         },
         chart: {
           fontFamily: '"Nunito", sans-serif',
+        },
+        legend: {
+          position: 'top',
         },
       },
       cctypeOptions: {
@@ -50,6 +56,9 @@ export default {
         },
         chart: {
           fontFamily: '"Nunito", sans-serif',
+        },
+        legend: {
+          position: 'top',
         },
       },
     };
