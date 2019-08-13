@@ -14,7 +14,7 @@
         </button>
         </div>
 <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="filter"
                 native-value="all">
                 All responses
