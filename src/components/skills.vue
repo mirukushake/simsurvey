@@ -1,43 +1,21 @@
 <template>
   <div class="container">
-    <h2 class="subtitle">Leveling up</h2>
-    Skilling, careers, and making money are often seen as some of the main goals when playing The Sims, but they're also things that can be easily manipulated with cheats.
-     I thought it would be interesting to see which of these goals players were stricter about.
- <span class="chartfloatleft"><apexchart height="300" type="donut" :options="moneyCheatsOptions" :series="moneyCheats"/></span>
-<span class="chartfloatright"><apexchart height="300" type="donut" :options="skillCheatsOptions" :series="skillCheats" width="100%"/></span>
-<div class="is-clearfix"></div>
-<span class="chartfloatleft"><apexchart height="300" type="donut" :options="careerCheatsOptions" :series="careerCheats"/></span>
-<br /><br />
-     Players were much more liberal with money cheats than skilling or career cheats. I was surprised at how many
+    <p class="subtitle is-5">Cheats usage</p>
+    <p>Skilling, careers, and making money are often seen as some of the main goals when playing The Sims, but they're also things that can be easily manipulated with cheats.
+     I thought it would be interesting to see which of these goals players were stricter about.</p>
+    <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="moneyCheatsOptions" :series="moneyCheats"/></div>
+      <div class="column"><apexchart height="300" type="donut" :options="skillCheatsOptions" :series="skillCheats" width="100%"/></div>
+    </div>
+    <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="careerCheatsOptions" :series="careerCheats"/></div>
+      <div class="column">
+
+        <p>Players were much more liberal with money cheats than skilling or career cheats. I was surprised at how many
      did not use career cheats at all. However, as you can see below, a large number players actually do not give their
-     sims the traditional careers, which may play a large part in this.
-<div class="is-clearfix"></div>
- <h2 class="subtitle">The most popular careers</h2>
-     <section class="has-text-centered">
-        <div class="block">
-            <b-radio v-model="careerFilter"
-                native-value="all">
-                All responses
-            </b-radio>
-            <b-radio v-model="careerFilter"
-                native-value="builder">
-                Builder
-            </b-radio>
-            <b-radio v-model="careerFilter"
-                native-value="cas">
-                CAS
-            </b-radio>
-            <b-radio v-model="careerFilter"
-                native-value="play">
-                Gameplay
-            </b-radio>
-        </div>
-    </section>
-<apexchart height="500" type="bar" :options="chartOptions" :series="careers"/>
-As you can see, the most popular "career" of choice was to have sims paint, write, etc. for money without entering the actual career, although the Painter and Writer careers <i>were</i>
-  actually quite popular as well. Culinary was an exteremely popular base game choice, and Actor/Actress from Get Famous was the most popular DLC career.
-  <!-- <br /><br />
-  There were 16 "other" answers which I didn't include on the graph because I -->
+     sims the traditional careers, which may play a large part in this.</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -84,7 +62,7 @@ export default {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {

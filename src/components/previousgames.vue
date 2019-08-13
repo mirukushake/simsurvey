@@ -1,10 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="subtitle">Have you played any other (major) Sims games?</h2>
     <apexchart height="300" type="bar" :options="chartOptions" :series="series"/>
-    <p>The vast majority of respondents were long time players of the series. Not surprisingly, the newer games were played more often. <br />
-    There were a few invalid answers I didn't get around to cleaning up, but there were less than a handful of them so
-     they should have no sizeable impact on the overall results.</p>
   </div>
 </template>
 
@@ -22,7 +18,7 @@ export default {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {

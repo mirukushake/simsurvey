@@ -1,46 +1,30 @@
 <template>
     <div>
-      <scrollactive :offset="52">
-      <b-navbar fixed-top type="is-success">
+      <b-navbar fixed-top type="is-primary">
         <template slot="end">
-            <b-navbar-item href="#general" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/">
                 General
             </b-navbar-item>
-            <b-navbar-item href="#dlc" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/dlc">
                 DLC Preferences
             </b-navbar-item>
-            <b-navbar-item href="#household" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/sims">
                 Sims/Household
             </b-navbar-item>
-            <b-navbar-item href="#" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/leveling">
                 Leveling
             </b-navbar-item>
-            <b-navbar-item href="#" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/building">
                 Building
             </b-navbar-item>
-            <b-navbar-item href="#" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/misc">
                 Miscellaneous
             </b-navbar-item>
-            <b-navbar-item href="#" class="scrollactive-item">
+            <b-navbar-item tag="router-link" to="/info">
                 Survey Info
             </b-navbar-item>
         </template>
     </b-navbar>
-    </scrollactive>
-    <section class="hero is-success is-medium">
-      <div class="hero-head">
-      </div>
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Sims 4 Playstyle Survey Results
-      </h1>
-      <h2 class="subtitle">
-        A look at how TS4 players enjoy the game.
-      </h2>
-    </div>
-  </div>
-</section>
 </div>
 </template>
 
@@ -48,7 +32,6 @@
 export default {
   data() {
     return {
-      activeTab: 0,
     };
   },
 };

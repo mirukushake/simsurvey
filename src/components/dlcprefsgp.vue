@@ -1,10 +1,9 @@
 /* eslint-disable max-len */
 <template>
   <div class="container">
-    <p>You can use the buttons below to filter the results by playstyle type.</p>
-    <h2 class="subtitle">Favorite GP for gameplay</h2>
+    <p class="subtitle is-5">Gameplay</p>
     <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="playFilter"
                 native-value="all">
                 All responses
@@ -25,11 +24,11 @@
     </section>
 
     <apexchart height="300" type="bar" :options="chartOptions" :series="gpgameplay"/>
-    Parenthood is absolutely the top GP, with Vampires coming in second place with barely more than half the votes for Parenthood.
-     The gap becomes even more noticeable for gameplay-oriented players.
-      <h2 class="subtitle">Favorite GP for build/buy</h2>
+    <p>Parenthood is absolutely the top GP, with Vampires coming in second place with barely more than half the votes for Parenthood.
+     The gap becomes even more noticeable for gameplay-oriented players.</p>
+      <p class="subtitle is-5">Build/Buy</p>
           <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="bbFilter"
                 native-value="all">
                 All responses
@@ -50,11 +49,11 @@
     </section>
 
     <apexchart height="300" type="bar" :options="chartOptions" :series="gpbb"/>
-    I thought for sure Jungle Adventure would be the winner in this category, but Parenthood was top again!
-     For builders, the votes were distributed much more evenly than for other playstyles.
-           <h2 class="subtitle">Favorite GP for CAS</h2>
+    <p>I thought for sure Jungle Adventure would be the winner in this category, but Parenthood was top again!
+     For builders, the votes were distributed much more evenly than for other playstyles.</p>
+           <p class="subtitle is-5">CAS</p>
           <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="casFilter"
                 native-value="all">
                 All responses
@@ -74,7 +73,7 @@
         </div>
     </section>
     <apexchart height="300" type="bar" :options="chartOptions" :series="gpcas"/>
-    Once again, Parenthood was the clear winner overall. Interestingly, Spa Day was much more popular with the CAS folks than other playstyles.
+    <p>Once again, Parenthood was the clear winner overall. Spa Day seemed more popular with the CAS folks than the others.</p>
   </div>
 </template>
 
@@ -91,12 +90,12 @@ export default {
       playFilter: 'all',
       bbFilter: 'all',
       casFilter: 'all',
-      gps: ['Outdoor Retreat', 'Spa Day', 'Dine Out', 'Vampires', 'Parenthood', 'Jungle Adventure', 'Strangerville'],
+      gps: ['Outdoor Retreat', 'Spa Day', 'Dine Out', 'Vampires', 'Parenthood', 'Jungle Adventure', 'Strangerville', 'None'],
       chartOptions: {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {
@@ -143,6 +142,7 @@ export default {
       const gp5Count = hasData.filter(game => game.gp_play.includes(this.gps[4]));
       const gp6Count = hasData.filter(game => game.gp_play.includes(this.gps[5]));
       const gp7Count = hasData.filter(game => game.gp_play.includes(this.gps[6]));
+      const gp8Count = hasData.filter(game => game.gp_play.includes(this.gps[7]));
 
       if (this.playFilter === 'builder') {
         const gp1CountNew = gp1Count.filter(type => type.playstyle.includes('builder'));
@@ -152,9 +152,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('builder'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('builder'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('builder'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -167,9 +168,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('cas'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('cas'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('cas'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -182,14 +184,15 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length];
+      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length, gp8Count.length];
       const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;
@@ -203,6 +206,7 @@ export default {
       const gp5Count = hasData.filter(game => game.gp_bb.includes(this.gps[4]));
       const gp6Count = hasData.filter(game => game.gp_bb.includes(this.gps[5]));
       const gp7Count = hasData.filter(game => game.gp_bb.includes(this.gps[6]));
+      const gp8Count = hasData.filter(game => game.gp_bb.includes(this.gps[7]));
 
       if (this.bbFilter === 'builder') {
         const gp1CountNew = gp1Count.filter(type => type.playstyle.includes('builder'));
@@ -212,9 +216,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('builder'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('builder'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('builder'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -227,9 +232,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('cas'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('cas'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('cas'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -242,15 +248,15 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-
-      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length];
+      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length, gp8Count.length];
       const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;
@@ -264,6 +270,7 @@ export default {
       const gp5Count = hasData.filter(game => game.gp_cas.includes(this.gps[4]));
       const gp6Count = hasData.filter(game => game.gp_cas.includes(this.gps[5]));
       const gp7Count = hasData.filter(game => game.gp_cas.includes(this.gps[6]));
+      const gp8Count = hasData.filter(game => game.gp_cas.includes(this.gps[7]));
 
       if (this.casFilter === 'builder') {
         const gp1CountNew = gp1Count.filter(type => type.playstyle.includes('builder'));
@@ -273,9 +280,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('builder'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('builder'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('builder'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -288,9 +296,10 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('cas'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('cas'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('cas'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -303,15 +312,15 @@ export default {
         const gp5CountNew = gp5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp6CountNew = gp6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const gp7CountNew = gp7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const gp8CountNew = gp8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [gp1CountNew.length, gp2CountNew.length, gp3CountNew.length,
-          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length];
+          gp4CountNew.length, gp5CountNew.length, gp6CountNew.length, gp7CountNew.length, gp8CountNew.length];
         const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-
-      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length];
+      const newArray = [gp1Count.length, gp2Count.length, gp3Count.length, gp4Count.length, gp5Count.length, gp6Count.length, gp7Count.length, gp8Count.length];
       const newObjects = this.gps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;

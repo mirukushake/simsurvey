@@ -6,21 +6,29 @@
 $family-sans-serif: "Open Sans", "Karla", "Montserrat", "Nunito", "Helvetica", "Arial", sans-serif;
 $body-family: "Nunito", "Arial", sans-serif;
 $title-family: "Open Sans", "Arial", sans-serif;
+$subtitle-family: "Open Sans", "Arial", sans-serif;
+
+$primary: #0277bd;
+$info: #283593;
+$success: #2e7d32;
+$warning: #f9a825;
+$danger: #c62828;
 
 // other styles
 
-.chartfloatright {
-    float: right;
-    width: 50%;
+section p {
+    margin-bottom: 1em;
 }
-.chartfloatleft {
-    float: left;
-    width: 50%;
+
+.b-space {
+    margin-bottom: 1.5rem;
 }
 
 
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
+
+$subtitle-weight: $weight-semibold;
 
 // Import Bulma and Buefy styles
 @import "~bulma";

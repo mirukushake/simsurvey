@@ -1,11 +1,19 @@
 <template>
   <div class="container">
-    <h2 class="subtitle">Starting a household</h2>
-    <span class="chartfloatleft"><apexchart height="300" type="donut" :options="enjoyCasOptions" :series="enjoyCas"/></span>
-    <span class="chartfloatright"><apexchart height="300" type="donut" :options="petPrefOptions" :series="petPref"/></span>
-          <div class="is-clearfix"></div>
-Over 90% of respondents very much or somewhat enjoyed creating sims, while opinions regarding pet creation/adoption were fairly evenly split.
-<section class="has-text-centered">
+     <p class="subtitle is-5">Starting a household</p>
+    <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="enjoyCasOptions" :series="enjoyCas"/></div>
+      <div class="column"><apexchart height="300" type="donut" :options="petPrefOptions" :series="petPref"/></div>
+    </div>
+<p>Over 90% of respondents very much or somewhat enjoyed creating sims, while opinions regarding pet creation/adoption were fairly evenly split.</p>
+ <p class="subtitle is-5">Preferred starter household</p>
+ <div class="has-text-right">
+         <button class="button "
+            @click="modal = true">
+            View other answers
+        </button>
+        </div>
+<section>
         <div class="block">
             <b-radio v-model="filter"
                 native-value="all">
@@ -26,7 +34,22 @@ Over 90% of respondents very much or somewhat enjoyed creating sims, while opini
         </div>
     </section>
       <apexchart height="500" type="bar" :options="chartOptions" :series="starter"/>
-      A single young adult sim was by far the most popular starter household, with young adult couple in distant second.
+      <p>A single young adult sim was by far the most popular starter household, with young adult couple in distant second. Single parent, young adult with pet, and sibling/twins came up more than once in "other" answers.</p>
+
+      <b-modal :active.sync="modal" :width="640">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                      <p class="title is-3">Other answers*</p>
+
+                        <ul>
+                           <li v-for="(answer, index) in otherAnswers" :key="index">{{ answer }}</li>
+                        </ul>
+                        <i class="has-text-grey">*Only unique answers are shown (repeats are shown only once)</i>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
       </div>
 </template>
 
@@ -41,6 +64,8 @@ export default {
   data() {
     return {
       filter: 'all',
+      modal: false,
+      otherAnswers: ['Randomized', 'Single young adult with pets', 'single parent', 'siblings of different ages', 'Depends', 'Twins (Two Young Adults)', 'Single parent + child', 'Siblings (any ages)', 'YA sim + pet', 'Single YA Sim with 1 pet'],
       enjoyCasOptions: {
         labels: ['Very much', 'Somewhat', 'Very little', 'Not at all'],
         title: {
@@ -54,6 +79,9 @@ export default {
         labels: ['Start with pets', 'Adopt', 'No preference'],
         title: {
           text: 'Do you prefer to start with pets or adopt them?',
+        },
+        legend: {
+          position: 'top',
         },
       },
       cctypeOptions: {
@@ -70,7 +98,7 @@ export default {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {

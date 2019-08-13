@@ -1,14 +1,15 @@
 <template>
   <div class="container">
-    <span class="chartfloatright"><apexchart height="300" type="donut" :options="donutOptions" :series="donutSeries"/></span>
-    <h2 class="subtitle">Do you have any DLC?</h2>
-    The vast majority of respondents have bought DLC for the game. 
-      <div class="is-clearfix"></div>
-      <h2 class="subtitle">DLC Completion</h2>
+    <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="donutOptions" :series="donutSeries"/></div>
+      <div class="column"><p>Almost all respondents have some sort of DLC for the game.</p>
+      </div>
+    </div>
+
+      <p class="subtitle is-5">DLC Completion</p>
     <apexchart height="300" type="bar" :options="barOptions" :series="barSeries"/>
-    I was a little surprised at how many people have all DLC. Expansion pack completion matched my expectations, and I think that
-    number will increase once Island Living goes on sale. 
-  </div>
+    <p>I was a little surprised at how many people have all DLC, but I also did not ask if they had <i>bought</i> all of their DLC *wink wink*. Expansion pack completion matched my expectations, and I think that
+    number will increase once Island Living goes on sale. There were also nearly 300 respondents, about 40%, who did not answer (so they have DLC, but have not completed any category).</p></div>
 </template>
 
 <script>
@@ -34,21 +35,16 @@ export default {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {
           bar: {
             distributed: true,
+            horizontal: true,
             dataLabels: {
               position: 'top',
             },
-          },
-        },
-        title: {
-          // text: `${this.barResponses.y} responses`,
-          style: {
-            fontSize: '14px',
           },
         },
         dataLabels: {
@@ -56,7 +52,9 @@ export default {
           formatter(val) {
             return val;
           },
-          offsetY: -20,
+          textAnchor: 'start',
+          offsetY: -1,
+          offsetX: 20,
           style: {
             fontSize: '12px',
             colors: ['#304758'],
@@ -64,12 +62,6 @@ export default {
         },
         tooltip: {
           enabled: false,
-        },
-        chart: {
-          fontFamily: '"Nunito", sans-serif',
-          toolbar: {
-            show: false,
-          },
         },
       },
     };
@@ -82,17 +74,19 @@ export default {
       return dlcCount;
     },
     barSeries() {
-      const havedata = this.chartData.filter(data => data.dlc_completion)
-      const allCount = havedata.filter(game => game.dlc_completion === "all").length;
+      const havedata = this.chartData.filter(data => data.dlc_completion);
+      const allCount = havedata.filter(game => game.dlc_completion === 'all').length;
       const epCount = havedata.filter(game => game.dlc_completion.includes('allep')).length;
       const gpCount = havedata.filter(game => game.dlc_completion.includes('allgp')).length;
       const spCount = havedata.filter(game => game.dlc_completion.includes('allsp')).length;
-      const newSeries = [{ data: [
-        { x: 'All', y: allCount },
-        { x: 'All EPs', y: epCount },
-        { x: 'All GPs', y: gpCount },
-        { x: 'All SPs', y: spCount },
-        ].sort((a, b) => b.y - a.y) }];
+      const newSeries = [{
+        data: [
+          { x: 'All', y: allCount },
+          { x: 'All EPs', y: epCount },
+          { x: 'All GPs', y: gpCount },
+          { x: 'All SPs', y: spCount },
+        ].sort((a, b) => b.y - a.y),
+      }];
       return newSeries;
     },
   },

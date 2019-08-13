@@ -1,16 +1,22 @@
 <template>
   <div class="container">
-    <h2 class="subtitle">Do you use custom content and mods?</h2>
-    <span class="chartfloatleft"><apexchart height="300" type="donut" :options="ccuseOptions" :series="ccuse"/></span>
-    <span class="chartfloatright"><apexchart height="300" type="donut" :options="moduseOptions" :series="moduse"/></span>
-   About two-thirds of the respondents use custom content and mods, with slightly more using mods.
+    <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="ccuseOptions" :series="ccuse"/></div>
+      <div class="column"><apexchart height="300" type="donut" :options="moduseOptions" :series="moduse"/></div>
+    </div>
+   <p>About two-thirds of the respondents use custom content and mods, with slightly more using mods.
     Unfortunately, I did not include a quesion about game platform,
      so it's not known how many of those who do not use CC or mods are console or PC players.
-     <span class="chartfloatright"><apexchart height="300" type="donut" :options="cctypeOptions" :series="cctype"/></span>
-     <br /></br />
-     It looks like Maxis Match is the most popular CC type, with Maxis Match second. However, there is a
-      <strong>fairly strong bias</strong> to this data, as the poll was also shared on Tumblr mostly thorugh MM blogs.
-      <div class="is-clearfix"></div>
+</p>
+        <div class="columns">
+      <div class="column"><apexchart height="300" type="donut" :options="cctypeOptions" :series="cctype"/></div>
+      <div class="column">
+        <br />
+        <p class="subtitle is-5">CC style</p>
+        <p>It looks like Maxis Match is the most popular CC type, with Maxis Match second. However, there is a
+      <strong>fairly strong bias</strong> to this data, as the poll was also shared on Tumblr mostly thorugh MM blogs.</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -52,7 +58,6 @@ export default {
         labels: ['Alpha', 'Maxis Match', 'Maxis Mix'],
         title: {
           text: 'Which style of CC do you prefer?',
-          align: 'right',
         },
         chart: {
           fontFamily: '"Nunito", sans-serif',

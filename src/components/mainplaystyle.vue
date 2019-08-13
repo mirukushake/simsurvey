@@ -1,20 +1,27 @@
 <template>
-  <div class="container">
-    <h2 class="subtitle">What is your main playstyle?</h2>
+  <div>
+        <div class="has-text-right">
+         <button class="button "
+            @click="modal = true">
+            View other answers
+        </button>
+        </div>
     <apexchart height="300" type="bar" :options="chartOptions" :series="series"/>
-    Family/legacy play was the most popular answer, with CAS second and building third.
-     Storytelling was lower than I thought it would be.
-     There were a variety of comments for "other gameplay," including:
-    <article class="message">
-  <div class="message-body">
-    <ul>
-      <li>＊ Challenges, especially rags to riches</li>
-      <li>＊ Collecting sim graves</li>
-      <li>＊ Getting achievements</li>
-      <li>＊ Destroying everything</li>
-    </ul>
-  </div>
-</article>
+
+     <b-modal :active.sync="modal" :width="640">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                      <p class="title is-3">Other answers*</p>
+
+                        <ul>
+                           <li v-for="(answer, index) in otherAnswers" :key="index">{{ answer }}</li>
+                        </ul>
+                        <i class="has-text-grey">*Only unique answers are shown (repeats are shown only once)</i>
+                    </div>
+                </div>
+            </div>
+        </b-modal>
   </div>
 </template>
 
@@ -28,25 +35,22 @@ export default {
   },
   data() {
     return {
+      modal: false,
+      otherAnswers: ['Harem-Building/Sex-Simulator', 'Just playing the game', 'playing the game', 'I use both cas, legacy gameplay and storytelling', 'Goal orientated or challenges', 'goofing around', 'Rags to Riches', 'getting achievements', 'I like to make my personal Challenges', 'Playing for half an hour and then giving up', 'getting bored then making a new family', 'Cheating', 'Collecting sim graves', 'Playing for 10 minutes every few weeks', 'Basic gameplay ', 'Skill building and collections', 'Destroying Everything', 'mix of storytelling/legacy', 'Challenges', 'Just playing the game, like....DUH! Why isn\'t this an option?', 'storytelling/challenges'],
       chartOptions: {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {
           bar: {
             distributed: true,
+            horizontal: true,
             dataLabels: {
               position: 'top',
             },
-          },
-        },
-        title: {
-          text: `${this.chartData.length} responses`,
-          style: {
-            fontSize: '14px',
           },
         },
         dataLabels: {
@@ -54,7 +58,9 @@ export default {
           formatter(val) {
             return val;
           },
-          offsetY: -20,
+          textAnchor: 'start',
+          offsetY: -1,
+          offsetX: 20,
           style: {
             fontSize: '12px',
             colors: ['#304758'],
@@ -63,10 +69,10 @@ export default {
         tooltip: {
           enabled: false,
         },
-        chart: {
-          fontFamily: '"Nunito", sans-serif',
-          toolbar: {
-            show: false,
+        yaxis: {
+          labels: {
+            rotate: 0,
+            maxWidth: 200,
           },
         },
         xaxis: {

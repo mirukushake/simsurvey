@@ -1,10 +1,9 @@
 /* eslint-disable max-len */
 <template>
   <div class="container">
-    <p>You can use the buttons below to filter the results by playstyle type (applies to all charts).</p>
-    <h2 class="subtitle">Favorite EP for gameplay</h2>
+    <p class="subtitle is-5">Gameplay</p>
     <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="playFilter"
                 native-value="all">
                 All responses
@@ -24,11 +23,11 @@
         </div>
     </section>
     <apexchart height="300" type="bar" :options="chartOptions" :series="epgameplay"/>
-    Seasons is by far the most popular EP for gameplay, no matter which playstyle. In general, Cats & Dogs and City Living were
-     the second and third most popular, with Get Famous gaining some traction among the CAs folks.
-      <h2 class="subtitle">Favorite EP for build/buy</h2>
+    <p>Seasons is by far the most popular EP for gameplay, no matter which playstyle. In general, Cats & Dogs and City Living were
+     the second and third most popular, with Get Famous gaining some traction among the CAS folks.</p>
+      <p class="subtitle is-5">Build/Buy</p>
           <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="bbFilter"
                 native-value="all">
                 All responses
@@ -48,11 +47,11 @@
         </div>
     </section>
     <apexchart height="300" type="bar" :options="chartOptions" :series="epbb"/>
-    Preferences did not change too much between different playstyles, with Seasons as the clear winner. Builders in particular
-     were not big Get to Work fans.
-           <h2 class="subtitle">Favorite EP for CAS</h2>
+    <p>Preferences did not change too much between different playstyles, with Seasons as the clear winner. Builders in particular
+     were not big Get to Work fans.</p>
+           <p class="subtitle is-5">CAS</p>
           <section>
-        <div class="block">
+        <div class="block has-text-centered">
             <b-radio v-model="casFilter"
                 native-value="all">
                 All responses
@@ -72,7 +71,7 @@
         </div>
     </section>
     <apexchart height="300" type="bar" :options="chartOptions" :series="epcas"/>
-    Seasons is once again the winner, with City Living and Get Famous close behind. Get to Work didn't do very well in this category either.
+    <p>Seasons is once again the winner, with City Living and Get Famous close behind. Get to Work didn't do very well in this category either.</p>
   </div>
 </template>
 
@@ -89,12 +88,12 @@ export default {
       playFilter: 'all',
       bbFilter: 'all',
       casFilter: 'all',
-      eps: ['Get to Work', 'Get Together', 'City Living', 'Cats & Dogs', 'Seasons', 'Get Famous', 'Island Living'],
+      eps: ['Get to Work', 'Get Together', 'City Living', 'Cats & Dogs', 'Seasons', 'Get Famous', 'Island Living', 'None'],
       chartOptions: {
         theme: {
           monochrome: {
             enabled: true,
-            color: '#3273dc',
+            color: '#00838f',
           },
         },
         plotOptions: {
@@ -135,6 +134,7 @@ export default {
       const ep5Count = hasData.filter(game => game.ep_play.includes(this.eps[4]));
       const ep6Count = hasData.filter(game => game.ep_play.includes(this.eps[5]));
       const ep7Count = hasData.filter(game => game.ep_play.includes(this.eps[6]));
+      const ep8Count = hasData.filter(game => game.ep_play.includes(this.eps[7]));
 
       if (this.playFilter === 'builder') {
         const ep1CountNew = ep1Count.filter(type => type.playstyle.includes('builder'));
@@ -144,9 +144,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('builder'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('builder'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('builder'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -159,9 +160,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('cas'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('cas'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('cas'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -174,14 +176,15 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length];
+      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length, ep8Count.length];
       const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;
@@ -195,6 +198,7 @@ export default {
       const ep5Count = hasData.filter(game => game.ep_bb.includes(this.eps[4]));
       const ep6Count = hasData.filter(game => game.ep_bb.includes(this.eps[5]));
       const ep7Count = hasData.filter(game => game.ep_bb.includes(this.eps[6]));
+      const ep8Count = hasData.filter(game => game.ep_bb.includes(this.eps[7]));
 
       if (this.bbFilter === 'builder') {
         const ep1CountNew = ep1Count.filter(type => type.playstyle.includes('builder'));
@@ -204,9 +208,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('builder'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('builder'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('builder'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -219,9 +224,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('cas'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('cas'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('cas'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -234,15 +240,15 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-
-      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length];
+      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length, ep8Count.length];
       const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;
@@ -256,6 +262,7 @@ export default {
       const ep5Count = hasData.filter(game => game.ep_cas.includes(this.eps[4]));
       const ep6Count = hasData.filter(game => game.ep_cas.includes(this.eps[5]));
       const ep7Count = hasData.filter(game => game.ep_cas.includes(this.eps[6]));
+      const ep8Count = hasData.filter(game => game.ep_cas.includes(this.eps[7]));
 
       if (this.casFilter === 'builder') {
         const ep1CountNew = ep1Count.filter(type => type.playstyle.includes('builder'));
@@ -265,9 +272,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('builder'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('builder'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('builder'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('builder'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -280,9 +288,10 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('cas'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('cas'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('cas'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('cas'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
@@ -295,15 +304,15 @@ export default {
         const ep5CountNew = ep5Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep6CountNew = ep6Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
         const ep7CountNew = ep7Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
+        const ep8CountNew = ep8Count.filter(type => type.playstyle.includes('family') || type.playstyle.includes('family') || type.playstyle.includes('other'));
 
         const newArray = [ep1CountNew.length, ep2CountNew.length, ep3CountNew.length,
-          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length];
+          ep4CountNew.length, ep5CountNew.length, ep6CountNew.length, ep7CountNew.length, ep8CountNew.length];
         const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
         const newSeries = [{ data: newObjects }];
         return newSeries;
       }
-
-      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length];
+      const newArray = [ep1Count.length, ep2Count.length, ep3Count.length, ep4Count.length, ep5Count.length, ep6Count.length, ep7Count.length, ep8Count.length];
       const newObjects = this.eps.map((a, i) => ({ x: a, y: newArray[i] }));
       const newSeries = [{ data: newObjects }];
       return newSeries;

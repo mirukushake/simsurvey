@@ -1,4 +1,3 @@
-
 [
     {
       "playstyle": [
@@ -562,7 +561,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -645,7 +644,7 @@
       "challenges": "Always"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "No",
       "mods": "No",
       "othergames": [
@@ -1328,7 +1327,7 @@
       "challenges": "Often"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
@@ -2111,8 +2110,8 @@
     },
     {
       "playstyle": [
-        "other",
-        "other"
+        "Other gameplay",
+        "Destroying Everything"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -2436,7 +2435,7 @@
       "challenges": "Always"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
@@ -2481,7 +2480,7 @@
       "challenges": "Ocassionally"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "No",
       "mods": "No",
       "othergames": "None",
@@ -2743,7 +2742,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Single sim gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -3119,7 +3118,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -4415,7 +4414,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "cctype": "mm",
@@ -4538,7 +4537,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -5010,7 +5009,7 @@
       "challenges": "Ocassionally"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mix",
       "mods": "Yes",
@@ -5615,7 +5614,7 @@
       "challenges": "Ocassionally"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "No",
       "mods": "Yes",
       "othergames": "All",
@@ -6096,7 +6095,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Challenges"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -6456,7 +6455,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -6689,7 +6688,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -7834,7 +7833,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "mix of storytelling/legacy"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -8469,7 +8468,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -8922,7 +8921,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Challenges"
       ],
       "usecc": "No",
       "mods": "No",
@@ -9911,7 +9910,7 @@
       "challenges": "Ocassionally"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Harem-Building/Sex-Simulator",
       "usecc": "Yes",
       "cctype": "alpha",
       "mods": "Yes",
@@ -9937,8 +9936,8 @@
     },
     {
       "playstyle": [
-        "other",
-        "other"
+        "Just playing the game",
+        "like....DUH! Why isn't this an option?"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -10272,7 +10271,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -10579,7 +10578,7 @@
       "challenges": "Rarely"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
@@ -11363,8 +11362,7 @@
       "control": "yes",
       "aging": "long",
       "starter": [
- 
-       "single ya",
+        "single ya",
         "couple ya",
         "roommates"
       ],
@@ -11397,7 +11395,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "storytelling/challenges"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -11927,7 +11925,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -12370,7 +12368,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Challenges!"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -12843,7 +12841,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "alpha",
@@ -13513,7 +13511,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -14127,7 +14125,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -14784,7 +14782,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Rags to riches"
       ],
       "usecc": "No",
       "mods": "No",
@@ -15191,7 +15189,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -15282,7 +15280,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -15566,7 +15564,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -16034,7 +16032,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -16100,7 +16098,7 @@
       "challenges": "Always"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "No",
       "mods": "No",
       "othergames": "All",
@@ -16482,7 +16480,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -18129,7 +18127,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -18265,7 +18263,7 @@
       "challenges": "Often"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
@@ -18324,7 +18322,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Goal orientated or challenges"
       ],
       "usecc": "No",
       "cctype": "mm",
@@ -19390,7 +19388,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -19723,7 +19721,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -20329,7 +20327,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -22673,8 +22671,7 @@
         "Spa Day",
         "Vampires"
       ],
-      "gp_bb":
- "None",
+      "gp_bb": "None",
       "gp_cas": "Vampires",
       "sp_play": [
         "Romantic Garden Stuff[",
@@ -22722,7 +22719,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -23267,7 +23264,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -24003,7 +24000,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -25616,7 +25613,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -25646,7 +25643,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "cctype": "mm",
@@ -25817,7 +25814,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -26124,7 +26121,7 @@
       "challenges": "Ocassionally"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "Yes",
@@ -26632,7 +26629,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -26775,7 +26772,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -26834,7 +26831,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -26921,7 +26918,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -27062,7 +27059,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -28031,7 +28028,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "alpha",
@@ -28774,7 +28771,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -28865,7 +28862,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -29403,7 +29400,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Challenges"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -30202,7 +30199,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "alpha",
@@ -30871,7 +30868,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "goofing around"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -31517,7 +31514,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Rags to Riches"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -31721,7 +31718,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "getting achievements"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -32112,7 +32109,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -32640,7 +32637,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "I like to make my personal Challenges"
       ],
       "usecc": "Yes",
       "cctype": "alpha",
@@ -32896,7 +32893,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Challenges"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -33744,7 +33741,7 @@
     },
     {
       "playstyle": [
-        "other",
+        "Other gameplay",
         "creator"
       ],
       "usecc": "Yes",
@@ -33967,8 +33964,7 @@
       ],
       "sp_cas": [
         "Kids Room Stuff",
-        
-"Toddler Stuff"
+        "Toddler Stuff"
       ],
       "create_enjoy": "Very much",
       "freewill": "On",
@@ -34469,7 +34465,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -36212,7 +36208,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Playing for half an hour and then giving up"
       ],
       "usecc": "No",
       "mods": "Yes",
@@ -36380,7 +36376,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -36458,7 +36454,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -36647,7 +36643,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -37153,7 +37149,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Challenges"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -37461,8 +37457,8 @@
     },
     {
       "playstyle": [
-        "other",
-        "other"
+        "playing the game",
+        "getting bored then making a new family"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -38549,7 +38545,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Cheating"
       ],
       "usecc": "No",
       "mods": "No",
@@ -38967,7 +38963,7 @@
     },
     {
       "playstyle": [
-        "other",
+        "Other gameplay",
         "creator"
       ],
       "usecc": "Yes",
@@ -39612,7 +39608,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -39712,7 +39708,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -41133,7 +41129,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -41358,7 +41354,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -41814,7 +41810,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -42347,8 +42343,8 @@
     },
     {
       "playstyle": [
-        "other",
-        "other"
+        "Other gameplay",
+        "Collecting sim graves"
       ],
       "usecc": "No",
       "mods": "No",
@@ -42711,7 +42707,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Playing for 10 minutes every few weeks"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -42800,7 +42796,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -44293,7 +44289,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -44726,7 +44722,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -45112,7 +45108,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -45352,8 +45348,7 @@
       "ep_play": [
         "Get to Work",
         "Seasons",
-       
- "Get Famous"
+        "Get Famous"
       ],
       "ep_bb": [
         "City Living",
@@ -45782,7 +45777,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Basic gameplay"
       ],
       "usecc": "No",
       "mods": "No",
@@ -45853,7 +45848,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -47285,8 +47280,8 @@
     },
     {
       "playstyle": [
-        "other",
-        "other"
+        "I use both cas",
+        "legacy gameplay and storytelling"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -47556,7 +47551,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -48527,7 +48522,7 @@
       "challenges": "Rarely"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mix",
       "mods": "Yes",
@@ -49486,7 +49481,7 @@
       "challenges": "Haven't but would like to try"
     },
     {
-      "playstyle": "other",
+      "playstyle": "Other gameplay",
       "usecc": "Yes",
       "cctype": "mm",
       "mods": "No",
@@ -49869,7 +49864,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -50329,7 +50324,7 @@
     {
       "playstyle": [
         "family",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -50662,7 +50657,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Skill building and collections"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -51034,7 +51029,7 @@
     {
       "playstyle": [
         "cas",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -51519,7 +51514,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -52624,7 +52619,7 @@
     {
       "playstyle": [
         "story",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mix",
@@ -52951,7 +52946,7 @@
     {
       "playstyle": [
         "builder",
-        "other"
+        "Other gameplay"
       ],
       "usecc": "Yes",
       "cctype": "mm",
@@ -53321,7 +53316,7 @@
     },
     {
       "playstyle": [
-        "other",
+        "Other gameplay",
         "creator"
       ],
       "usecc": "Yes",
@@ -53777,6 +53772,571 @@
       "enjoy_decor": "Very much",
       "gallery_lots": "Never",
       "saves": 1,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "ep_play": [
+        "Get Together",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Get to Work",
+        "Get Together",
+        "Seasons"
+      ],
+      "ep_cas": "Seasons",
+      "gp_play": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "manual",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "No preference",
+      "rotate": "often",
+      "spares": "move out",
+      "premades": "keep",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Entertainer",
+        "Gardener (Seasons)",
+        "Secret Agent",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 72,
+      "saves": 1,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": "builder",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": "Parenthood",
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Parenthood",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Jungle Adventure"
+      ],
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Bowling Night Stuff",
+        "Laundry Day Stuff"
+      ],
+      "create_enjoy": "Somewhat",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "long",
+      "starter": [
+        "single ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Never",
+      "careers": [
+        "Conservationist (IL)",
+        "Detective (GTW)",
+        "Entertainer",
+        "Gardener (Seasons)",
+        "Painter"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Rarely",
+      "hours": 1176,
+      "saves": 3,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": "family",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "ep_play": "Seasons",
+      "gp_play": "Vampires",
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "Off",
+      "control": "yes",
+      "aging": "short",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 26,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Often",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": "CC Careers",
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Rarely",
+      "hours": 200,
+      "saves": 3,
+      "challenges": "Often"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "alpha",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "ep_play": "None",
+      "ep_bb": "None",
+      "ep_cas": "None",
+      "gp_play": "None",
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": "None",
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "custom",
+      "starter": "single ya",
+      "pets": "No preference",
+      "rotate": "sometimes",
+      "spares": "leave",
+      "gens": 86,
+      "premades": "delete some",
+      "gallery_sims": "Occassionally",
+      "gallery_townie": "Always",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Never",
+      "careers": [
+        "Doctor (GTW)",
+        "Writer",
+        "Self-employed"
+      ],
+      "build_home": "Not at all",
+      "build_community": "Not at all",
+      "which_house": "No preference",
+      "enjoy_decor": "Not at all",
+      "gallery_lots": "Always",
+      "hours": 5000,
+      "saves": 2,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": "builder",
+      "usecc": "No",
+      "mods": "No",
+      "othergames": "All",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": "City Living",
+      "gp_play": "Vampires",
+      "gp_bb": "Spa Day",
+      "gp_cas": [
+        "Vampires",
+        "Strangerville"
+      ],
+      "sp_play": "None",
+      "sp_bb": [
+        "Perfect Patio Stuff",
+        "Spooky Stuff"
+      ],
+      "sp_cas": [
+        "Spooky Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "create_enjoy": "Somewhat",
+      "freewill": "Off",
+      "control": "yes",
+      "aging": "off",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "roommates"
+      ],
+      "pets": "Start with pets",
+      "rotate": "one",
+      "spares": "other",
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Never",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Painter",
+        "Scientist (GTW)",
+        "Writer",
+        "Freelancer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Never",
+      "hours": 260,
+      "saves": 3,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "Get to Work",
+        "Get Famous",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Vampires",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Vampires",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_bb": [
+        "Romantic Garden Stuff[",
+        "Vintage Glamour Stuff"
+      ],
+      "sp_cas": [
+        "Spooky Stuff",
+        "Romantic Garden Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "Off",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "play",
+      "gens": 3,
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Conservationist (IL)",
+        "Criminal",
+        "Culinary",
+        "Painter"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
+      "hours": 2190,
+      "saves": 1,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "None",
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get Together",
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Get Together",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Outdoor Retreat",
+        "Vampires",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Vampires",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Romantic Garden Stuff[",
+        "Backyard Stuff"
+      ],
+      "sp_cas": [
+        "Vintage Glamour Stuff",
+        "Laundry Day Stuff",
+        "My First Pet Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "long",
+      "starter": [
+        "single ya",
+        "couple ya",
+        "family",
+        "roommates"
+      ],
+      "pets": "No preference",
+      "rotate": "often",
+      "premades": "other",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Often",
+      "career_cheat": "Often",
+      "careers": [
+        "Detective (GTW)",
+        "Doctor (GTW)",
+        "Scientist (GTW)",
+        "Freelancer",
+        "Self-employed"
+      ],
+      "build_home": "Very much",
+      "build_community": "Very much",
+      "which_house": "Standalone homes",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Ocassionally",
+      "hours": 640,
+      "saves": 16,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "cas",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "No",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "dlc_completion": "all",
+      "ep_play": [
+        "Get Together",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Get Together",
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Spa Day",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Spa Day",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Spa Day",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Bowling Night Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Movie Hangout Stuff",
+        "Kids Room Stuff"
+      ],
+      "sp_cas": [
+        "Romantic Garden Stuff",
+        "Vintage Glamour Stuff",
+        "Toddler Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "Other",
+      "control": "yes",
+      "aging": "custom",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
+      "pets": "No preference",
+      "rotate": "one",
+      "spares": "play",
+      "premades": "delete some",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Occassionally",
+      "money_cheat": "Rarely",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": "Business",
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Often",
       "challenges": "Ocassionally"
     }
   ]
