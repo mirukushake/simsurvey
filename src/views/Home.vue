@@ -21,7 +21,7 @@
         I looked around but I couldn't find much official information, and unofficial surveys were mostly focused on DLC, so I decided to
          make my own.
       </p>
-      <p>I cannot thank the wonderful Sims community enough. I thought I would get maybe 300 responses at most, but had <strong>825(!!)</strong>
+      <p>I cannot thank the wonderful Sims community enough. I thought I would get maybe 300 responses at most, but had <strong>827(!!)</strong>
        when I finished putting everything together. I hope you enjoy reading the results as much as I did!</p>
        </div>
        </section>
