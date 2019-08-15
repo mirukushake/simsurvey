@@ -13,7 +13,7 @@
       <div class="column">
         <br />
         <p class="subtitle is-5">CC style</p>
-        <p>It looks like Maxis Match is the most popular CC type, with Maxis Match second. However, there is a
+        <p>It looks like Maxis Match is the most popular CC type, with Maxis Mix second. However, there is a
       <strong>fairly strong bias</strong> to this data, as the poll was also shared on Tumblr mostly thorugh MM blogs.</p>
       </div>
     </div>

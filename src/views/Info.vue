@@ -26,7 +26,7 @@
         <p>Unfortunately, I missed some (totally obvious now that I think about it) things like favorite traits and aspirations, favorite mods, etc. I guess that is always something
           I can work on at a later date! Right now, however, I might scream if I have to look at another Excel formula or line of Javascript.
         </p>
-        <p>You can see the <a href="https://forms.gle/FQkkfeGKxxrz5vsj7">original form here</a> and the <a href="https://docs.google.com/spreadsheets/d/15WVi8uFdX6wN0alMT-ftL8VpMuk01AciO3gFLKWjlI0/edit?usp=sharing">results in their raw form here</a>. And if you want to drop me a line abotu the survey, feel free to contact me over at reddit, u/mirukushake.</p>
+        <p>You can see the <a href="https://forms.gle/FQkkfeGKxxrz5vsj7">original form here</a> and the <a href="https://docs.google.com/spreadsheets/d/15WVi8uFdX6wN0alMT-ftL8VpMuk01AciO3gFLKWjlI0/edit?usp=sharing">results in their raw form here</a>. And if you want to drop me a line about the survey, feel free to contact me over at reddit, u/mirukushake.</p>
       </div>
     </section>
   </div>
