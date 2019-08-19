@@ -54474,8 +54474,7 @@
         "Business",
         "Freelancer",
         "Self-employed",
-        "Mods from loverslab: Drug dealer",
-        "prostitute etc."
+        "Mods from loverslab: Drug dealer, prostitute etc."
       ],
       "build_home": "Somewhat",
       "build_community": "Somewhat",
@@ -54485,5 +54484,462 @@
       "hours": 115,
       "saves": 2,
       "challenges": "Haven't but would like to try"
+    },
+     {
+      "playstyle": "family",
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "All",
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_cas": [
+        "Cats & Dogs",
+        "Seasons",
+        "Get Famous"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_cas": [
+        "Vampires",
+        "Parenthood"
+      ],
+      "sp_play": "I don't have any SPs",
+      "sp_bb": "I don't have any SPs",
+      "sp_cas": "I don't have any SPs",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "normal",
+      "starter": "single ya",
+      "pets": "Adopt",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 5,
+      "premades": "delete some",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Never",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Astronaut",
+        "Scientist (GTW)",
+        "Tech Guru",
+        "Self-employed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Never",
+      "hours": 128,
+      "saves": 1,
+      "challenges": "Ocassionally"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "cas"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allsp"
+      ],
+      "ep_play": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "Seasons",
+        "Get Famous",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": "Parenthood",
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Jungle Adventure"
+      ],
+      "sp_play": [
+        "Bowling Night Stuff",
+        "Laundry Day Stuff",
+        "My First Pet Stuff"
+      ],
+      "sp_bb": [
+        "Backyard Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": "Luxury Party Stuff",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "roommates"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "keep",
+      "gallery_sims": "Rarely",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Often",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Occassionally",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Social Media (CL)",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Not at all",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 1543,
+      "saves": 5,
+      "challenges": "Often"
+    },
+    {
+      "playstyle": [
+        "builder",
+        "family"
+      ],
+      "usecc": "Yes",
+      "cctype": "mix",
+      "mods": "Yes",
+      "othergames": "Sims 3",
+      "dlc": "Yes",
+      "dlc_completion": [
+        "allep",
+        "allgp"
+      ],
+      "ep_play": [
+        "Get to Work",
+        "City Living",
+        "Seasons"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Parenthood",
+        "Jungle Adventure"
+      ],
+      "gp_bb": [
+        "Parenthood",
+        "Jungle Adventure",
+        "Strangerville"
+      ],
+      "gp_cas": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "sp_play": [
+        "Movie Hangout Stuff",
+        "Bowling Night Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff",
+        "Fitness Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Vintage Glamour Stuff",
+        "Bowling Night Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "family",
+        "multigen",
+        "roommates"
+      ],
+      "pets": "Start with pets",
+      "rotate": "one",
+      "spares": "move out",
+      "gens": 9,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Never",
+      "money_cheat": "Always",
+      "skill_cheat": "Occassionally",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Detective (GTW)",
+        "Doctor (GTW)",
+        "Scientist (GTW)",
+        "Secret Agent",
+        "Freelancer"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Rarely",
+      "hours": 1445,
+      "saves": 2,
+      "challenges": "Rarely"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "Yes",
+      "othergames": [
+        "Sims 2",
+        "Sims 3"
+      ],
+      "dlc": "Yes",
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_bb": [
+        "Cats & Dogs",
+        "Seasons",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Spa Day",
+        "Parenthood"
+      ],
+      "gp_bb": "Parenthood",
+      "gp_cas": [
+        "Spa Day",
+        "Dine Out",
+        "Parenthood"
+      ],
+      "sp_play": [
+        "Kids Room Stuff",
+        "Toddler Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_bb": [
+        "Kids Room Stuff",
+        "Backyard Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Backyard Stuff",
+        "Toddler Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "Off",
+      "control": "yes",
+      "aging": "manual",
+      "starter": "couple ya",
+      "pets": "Start with pets",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 3,
+      "premades": "keep",
+      "gallery_sims": "Often",
+      "gallery_townie": "Often",
+      "money_cheat": "Always",
+      "skill_cheat": "Often",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Social Media (CL)",
+        "Writer",
+        "Freelancer"
+      ],
+      "build_home": "Very much",
+      "build_community": "Somewhat",
+      "which_house": "No preference",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Always",
+      "hours": 300,
+      "saves": 3,
+      "challenges": "Haven't but would like to try"
+    },
+    {
+      "playstyle": [
+        "family",
+        "story"
+      ],
+      "usecc": "Yes",
+      "cctype": "mm",
+      "mods": "No",
+      "othergames": "All",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "City Living",
+        "Seasons",
+        "Get Famous"
+      ],
+      "ep_bb": [
+        "City Living",
+        "Cats & Dogs",
+        "Island Living"
+      ],
+      "ep_cas": [
+        "City Living",
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": [
+        "Outdoor Retreat",
+        "Jungle Adventure"
+      ],
+      "gp_cas": [
+        "Outdoor Retreat",
+        "Spa Day",
+        "Jungle Adventure"
+      ],
+      "sp_play": "None",
+      "sp_bb": "None",
+      "sp_cas": "None",
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "rotate",
+      "aging": "long",
+      "starter": "single ya",
+      "pets": "Adopt",
+      "rotate": "sometimes",
+      "spares": "move out",
+      "gens": 2,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Never",
+      "skill_cheat": "Rarely",
+      "career_cheat": "Rarely",
+      "careers": [
+        "Actor/Actress (GF)",
+        "Unemployed"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "Apartments",
+      "enjoy_decor": "Somewhat",
+      "gallery_lots": "Often",
+      "saves": 1,
+      "challenges": "Never"
+    },
+    {
+      "playstyle": "family",
+      "usecc": "No",
+      "mods": "No",
+      "othergames": "Sims 2",
+      "dlc": "Yes",
+      "dlc_completion": "allep",
+      "ep_play": [
+        "Cats & Dogs",
+        "Seasons"
+      ],
+      "ep_bb": "None",
+      "ep_cas": [
+        "Seasons",
+        "Island Living"
+      ],
+      "gp_play": [
+        "Dine Out",
+        "Vampires",
+        "Parenthood"
+      ],
+      "gp_bb": "None",
+      "gp_cas": "None",
+      "sp_play": "Laundry Day Stuff",
+      "sp_bb": [
+        "Romantic Garden Stuff[",
+        "Backyard Stuff",
+        "Laundry Day Stuff"
+      ],
+      "sp_cas": [
+        "Movie Hangout Stuff",
+        "Vintage Glamour Stuff"
+      ],
+      "create_enjoy": "Very much",
+      "freewill": "On",
+      "control": "yes",
+      "aging": "normal",
+      "starter": [
+        "single ya",
+        "couple ya"
+      ],
+      "pets": "Adopt",
+      "rotate": "often",
+      "spares": "leave",
+      "gens": 15,
+      "premades": "keep",
+      "gallery_sims": "Never",
+      "gallery_townie": "Rarely",
+      "money_cheat": "Occassionally",
+      "skill_cheat": "Never",
+      "career_cheat": "Never",
+      "careers": [
+        "Self-employed",
+        "Retail/Restaurant"
+      ],
+      "build_home": "Somewhat",
+      "build_community": "Very little",
+      "which_house": "Apartments",
+      "enjoy_decor": "Very much",
+      "gallery_lots": "Never",
+      "hours": 86,
+      "saves": 4,
+      "challenges": "Often"
     }
   ]
