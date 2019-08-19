@@ -155,6 +155,7 @@ export default {
         'Free Will, heavily controlled with No Autonomy Mods', 'off on selected',
         'Off for selected sim, high for everyone else',
         'Off for active Sim, On for everyone else',
+        'I\'ll turn free will on if I\'m to lazy to manage them.',
       ],
       controlAnswers: ['Usually play one sim households',
         'As long ad everybody gets their homework done, I don\'t care',
